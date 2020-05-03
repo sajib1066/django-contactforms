@@ -1,6 +1,12 @@
 Django Contact Us Form
 ====================================
 
+.. image:: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
+   :target: https://raw.githubusercontent.com/sajib1066/django-contacts-us/master/LICENSE
+
+.. image:: https://img.shields.io/pypi/pyversions/Django.svg?maxAge=2592000
+   :target: https://github.com/sajib1066/django-contacts-us
+
 Install
 ----------------------
 
@@ -57,4 +63,11 @@ Include the template from ``contact/contact.html`` to your sidebar for example.
 
     {% include "contact/contact.html" %}
  
- 
+ License
+----------------------
+
+- `MIT`_
+
+
+.. _PyPI: https://pypi.python.org/pypi/django-contacts-us
+.. _MIT: https://github.com/sajib1066/django-contacts-us/blob/master/LICENSE
