@@ -9,10 +9,11 @@ setuptools.setup(
      author_email="sajib1066@gmail.com",
      description="Django Contact Us Form Package",
      long_description=long_description,
-   long_description_content_type="text/markdown",
+   long_description_content_type="markdown/reStructuredText",
      url="https://github.com/sajib1066/django-contacts-us",
      packages=setuptools.find_packages(),
      classifiers=[
+         "Framework :: Django",
          "Programming Language :: Python :: 3",
          "License :: OSI Approved :: MIT License",
          "Operating System :: OS Independent",
