@@ -9,7 +9,7 @@ setuptools.setup(
      author_email="sajib1066@gmail.com",
      description="Django Contact Us Form Package",
      long_description=long_description,
-   long_description_content_type="markdown/reStructuredText",
+     long_description_content_type="text/markdown",
      url="https://github.com/sajib1066/django-contacts-us",
      packages=setuptools.find_packages(),
      classifiers=[
