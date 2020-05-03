@@ -7,6 +7,8 @@ Django Contact Forms
 .. image:: https://img.shields.io/pypi/pyversions/Django.svg?maxAge=2592000
    :target: https://github.com/sajib1066/django-contactforms
 
+![msg](https://user-images.githubusercontent.com/39632170/80919242-c64a9000-8d8a-11ea-8b77-23e8d505c607.png)
+
 Install
 ----------------------
 
@@ -17,7 +19,7 @@ Django Contact Us is available directly from `PyPI`_:
     $ pip install django-contactforms
 
 
-***).** And don't forget to add ``contactus`` to your ``INSTALLED_APPS``.
+***).** And don't forget to add ``contact_forms`` to your ``INSTALLED_APPS``.
 
 
 Requirement
@@ -31,8 +33,8 @@ Database Migration
 
 ::
 
-    $ ./manage.py makemigrations contactus
-    $ ./manage.py migrate contactus
+    $ ./manage.py makemigrations contact_forms
+    $ ./manage.py migrate contact_forms
 
 
 
@@ -41,7 +43,7 @@ Database Migration
 URL configuration
 ----------------------
 
-The easiest way to set up the views in ``django-contacts-us`` is to just use the provided ``URLconf``, found at ``contactus.urls``.
+The easiest way to set up the views in ``django-contactforms`` is to just use the provided ``URLconf``, found at ``contact_forms.urls``.
 You can include it wherever you like in your site's URL configuration; for example, to have it live at the URL ``/contact/``:
 
 ::
@@ -50,7 +52,7 @@ You can include it wherever you like in your site's URL configuration; for examp
 
     urlpatterns = [
         # ....
-        path('contact/', include('contactus.urls')),
+        path('contact/', include('contact_forms.urls')),
     ]
 
 
