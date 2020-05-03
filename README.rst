@@ -1,11 +1,11 @@
-Django Contact Us Form
+Django Contact Forms
 ====================================
 
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
-   :target: https://raw.githubusercontent.com/sajib1066/django-contacts-us/master/LICENSE
+   :target: https://raw.githubusercontent.com/sajib1066/django-contactforms/master/LICENSE
 
 .. image:: https://img.shields.io/pypi/pyversions/Django.svg?maxAge=2592000
-   :target: https://github.com/sajib1066/django-contacts-us
+   :target: https://github.com/sajib1066/django-contactforms
 
 Install
 ----------------------
@@ -14,7 +14,7 @@ Django Contact Us is available directly from `PyPI`_:
 
 ::
 
-    $ pip install django-contacts-us
+    $ pip install django-contactforms
 
 
 ***).** And don't forget to add ``contactus`` to your ``INSTALLED_APPS``.
@@ -69,5 +69,5 @@ Include the template from ``contact/contact.html`` to your sidebar for example.
 - `MIT`_
 
 
-.. _PyPI: https://pypi.python.org/pypi/django-contacts-us
-.. _MIT: https://github.com/sajib1066/django-contacts-us/blob/master/LICENSE
+.. _PyPI: https://pypi.python.org/pypi/django-contactforms
+.. _MIT: https://github.com/sajib1066/django-contactforms/blob/master/LICENSE
