@@ -1,4 +1,4 @@
-Django Contact Forms
+Django Contact Widget
 ====================================
 
 .. image:: https://img.shields.io/badge/license-MIT-blue.svg?maxAge=2592000
@@ -7,7 +7,10 @@ Django Contact Forms
 .. image:: https://img.shields.io/pypi/pyversions/Django.svg?maxAge=2592000
    :target: https://github.com/sajib1066/django-contactforms
 
-![msg](https://user-images.githubusercontent.com/39632170/80919242-c64a9000-8d8a-11ea-8b77-23e8d505c607.png)
+A simple contact form widget for Django.
+
+.. image:: https://i.imgur.com/vUl0WsT.png
+
 
 Install
 ----------------------
@@ -25,7 +28,7 @@ Django Contact Us is available directly from `PyPI`_:
 Requirement
 ----------------------
 
-* ``Django>=3.0.5`
+* ``Django>=3`
 
 
 Database Migration
@@ -64,8 +67,10 @@ Include the template from ``contact/contact.html`` to your sidebar for example.
 ::
 
     {% include "contact/contact.html" %}
- 
- License
+
+
+
+License
 ----------------------
 
 - `MIT`_
