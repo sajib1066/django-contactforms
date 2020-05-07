@@ -28,7 +28,7 @@ Django Contact Us is available directly from `PyPI`_:
 Requirement
 ----------------------
 
-* ``Django>=3`
+* `Django>=3`
 
 
 Database Migration

@@ -3,7 +3,7 @@ with open("README.rst", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
      name='django-contactforms',  
-     version='1.2',
+     version='1.2.1',
      scripts=['django-contactforms'] ,
      author="Sajib Hossain",
      author_email="sajib1066@gmail.com",
