@@ -5,3 +5,4 @@ dist/
 *.egg-info/
 *.pypirc
 .vscode
+db.sqlite3
