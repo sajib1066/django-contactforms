@@ -36,8 +36,7 @@ Database Migration
 
 ::
 
-    $ ./manage.py makemigrations contact_forms
-    $ ./manage.py migrate contact_forms
+    $ ./manage.py migrate
 
 
 
