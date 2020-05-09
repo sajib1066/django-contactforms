@@ -81,5 +81,8 @@ You can include it wherever you like in your site's URL configuration; for examp
 Hello, I am Sajib Hossain. I am the author of this project. If you face problem to install or setup this package please feel free to contact with me. I always try to help you. If you want to add someting in this package always welcome to pull request.
 
 [Facebook](https://web.facebook.com/sajib1066 "Facebook")
+[Twitter](https://twitter.com/sajib1066 "Twitter")
+[Linkedin](https://www.linkedin.com/in/sajib1066/ "Linkedin")
+[Website](https://sajib1066.github.io/ "Website")
 
 
