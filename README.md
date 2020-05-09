@@ -9,6 +9,8 @@ django-contactforms is a very simple application package. It's help you create y
 
 ## Installation
 
+Directly Install From [PyPi](https://pypi.org/project/django-contactforms/ "PyPi")
+
 To install this just type:
 
 ```
