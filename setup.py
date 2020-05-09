@@ -1,9 +1,9 @@
 import setuptools
-with open("README.rst", "r") as fh:
+with open("README.md", "r") as fh:
     long_description = fh.read()
 setuptools.setup(
      name='django-contactforms',  
-     version='1.4',
+     version='2.0',
      scripts=['django-contactforms'] ,
      author="Sajib Hossain",
      author_email="sajib1066@gmail.com",

@@ -1,7 +1,7 @@
 
  <div class="row">
-  <h3>Send A Message</h3>
   <form action="{% url 'contact' %}" method="post">
+    <h3>Send a Message</h3>
     {% csrf_token %}
     <div class="form-group">
       {% if messages %}
